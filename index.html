@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soham+Pritha</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background: #f7f2f2 url(./flower.jpg) no-repeat center center fixed;
+      background-size: cover;
+      text-align: center;
+      color: #5b3b3b;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      max-width: 90%;
+      width: 700px;
+      margin: 40px auto;
+      padding: 30px 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .image-wrapper {
+      background: #5b3b3b;
+      padding: 15px;
+      border-radius: 50%;
+      width: 75%;
+      max-width: 280px;
+      margin: 0 auto 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .image-wrapper video {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      aspect-ratio: 1 / 1;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0 auto 15px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #5b3b3b;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background: #402c2c;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .container {
+        padding: 20px 15px;
+      }
+
+      .button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Our Website </h1>
+    <div class="image-wrapper">
+      <video autoplay loop muted playsinline>
+        <source src="entry_page.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <p>This is our website, where we'll store milestones of our sweet journey...Publishing this website on June 22, 2025, that is the second anniversary of our relationship <3</p>
+    <p><small>Wish us a happy journey ahead.</small></p>
+    <a href="entry_page.html" class="button">Let's GO! <3</a>
+
+  <audio autoplay loop>
+  <source src="Photograph.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+  </div>
+</body>
+</html>
